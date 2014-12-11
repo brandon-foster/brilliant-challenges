@@ -6,17 +6,6 @@
  */
 
 /*
- * returns a three character string from the beginning of the passed in string
- */
-function getThreeWordString(string) {
-    var result = '';
-    for (var i = 0; i < 3; i++) {
-        result += string[i];
-    }
-    return result;
-}
-
-/*
  * Returns the number of occurences of the target string within the string 
  */
 function countSubstring(string, target) {
