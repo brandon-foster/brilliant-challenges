@@ -22,11 +22,10 @@ function getThreeWordString(string) {
 function countSubstring(string, target) {
     var sum = 0;
     
-    var len = string.length;
-    for (var i = 0; i < len - 2; i++) {
-        if (string.substr(i, 3) == target) {
+    for (var i = 0; i < string.length - target.length - 1; i++) {
+        if (string.substr(i, target.length) == target) {
             sum += 1;
-            i += 2;
+            i += target.length - 1;
         }
     }
     return sum;
