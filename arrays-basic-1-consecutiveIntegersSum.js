@@ -148,4 +148,4 @@ function numberOfElementsThatAreSumsOfConsecutivePositiveIntegers(arr) {
 var array = [32, 37, 13, 21, 16, 55, 58, 37, 20, 50, 32, 14, 6, 25, 28, 51, 33, 1, 16, 8, 128, 25, 8, 64, 18, 16, 44, 19, 31, 3, 57, 21, 21, 20, 32, 8, 60, 27, 23, 8, 37, 33, 39, 10, 15, 56, 53, 26, 10, 4];
 var result = numberOfElementsThatAreSumsOfConsecutivePositiveIntegers(array);
 
-console.log(result);
+console.log('number of elements whose values are sums of consecutive positive integers: ' + result);
