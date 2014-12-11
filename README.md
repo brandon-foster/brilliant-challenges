@@ -1,4 +1,7 @@
 brilliant-challenges
 ====================
 
-Some solutions to brilliant.org's programming challenges.
+It's fun to do relax with some recreational programming once in a while.
+
+These are some of my solutions to brilliant.org's programming challenges.
+
