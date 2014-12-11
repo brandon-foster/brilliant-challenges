@@ -21,6 +21,6 @@ method, it gives a correct output.
 ===============================================================================
 My answer:
 
-The value for a is 1 and the value to b is -1. n[1:-1] will return the string n
+The value for a is 1 and the value for b is -1. n[1:-1] will return the string n
 without the first and last characters.  The sum of a and b is 0.
 ===============================================================================
