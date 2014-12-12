@@ -18,7 +18,7 @@ function createArrayOfIntegers(num) {
     var arr = [];
     
     // store all natural numbers less than num
-    for (var i = 0; i < num; i++) {
+    for (var i = 0; i < num - 1; i++) {
         arr[i] = i + 1;
     }
     
@@ -106,7 +106,7 @@ function isSumOfConsecutiveIntegers(num) {
     
     // create an array of sequences of consecutive natural numbers less than 
     // num, where each sequence has two or more elements
-    var arr = createArrayOfIntegers(num - 1);
+    var arr = createArrayOfIntegers(num);
     var sequences = createArrayOfSequences(arr);
     
     // for each sub-array in the sequences array, sum the values
